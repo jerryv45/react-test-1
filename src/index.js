@@ -1,17 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import '../src/index.css'
+const Header = () => {
+  return (
+    <>
+      <h1>Hello Style!</h1>
+      <p>Add a little style!.</p>
+    </>
+  );
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const SumnElse = () => {
+  return (
+    <>
+      <div class="uh">lorem something something
+       this my first react app ay</div>
+    </>
+  )
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+function Page() {
+  return (
+    <>
+      <Header/>
+      <SumnElse/>
+    </>
+  )
+}
+
+
+ReactDOM.render(<Page />, document.getElementById("root"));

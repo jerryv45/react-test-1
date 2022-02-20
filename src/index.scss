@@ -1,0 +1,35 @@
+$backgroundColor: rgb(61, 61, 61); 
+$myColor: rgb(221, 221, 221);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+background-color: $backgroundColor ;
+}
+
+
+h1, p{
+  color: $myColor;
+  text-align: center;
+  color: $backgroundColor;
+
+  font-size: 10vw;
+  font-weight: 800;
+
+  color: $backgroundColor; 
+  -webkit-text-stroke: 2px $myColor;
+}
+
+.uh {
+  text-align: center;
+  font-size: 7vw;
+  font-weight: 800;
+  color: $myColor;
+  margin: 2rem;
+}
+
