@@ -16,6 +16,11 @@ h1, p {
   -webkit-text-stroke: 2px #dddddd;
 }
 
+p {
+  font-size: 8vw;
+  margin: 5rem;
+}
+
 .uh {
   text-align: center;
   font-size: 7vw;

@@ -4,8 +4,8 @@ import '../src/index.css'
 const Header = () => {
   return (
     <>
-      <h1>Hello Style!</h1>
-      <p>Add a little style!.</p>
+      <h1>Hello World!</h1>
+      <p>This was made in React</p>
     </>
   );
 }
