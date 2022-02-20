@@ -27,7 +27,7 @@ h1, p{
 
 p {
   font-size: 8vw;
-  margin: 5rem;
+  margin: 1rem;
 }
 
 .uh {
@@ -35,6 +35,33 @@ p {
   font-size: 7vw;
   font-weight: 800;
   color: $myColor;
-  margin: 2rem;
+  margin: 3rem;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.button-1, .button-2 {
+  background-color: #3393b1; /* Green */
+  border: none;
+  color: $backgroundColor;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.button-1 {
+  margin: 1rem;
+}
+
+.button-2 {
+  margin: 1rem;
+}

@@ -18,7 +18,7 @@ h1, p {
 
 p {
   font-size: 8vw;
-  margin: 5rem;
+  margin: 1rem;
 }
 
 .uh {
@@ -26,6 +26,39 @@ p {
   font-size: 7vw;
   font-weight: 800;
   color: #dddddd;
+  margin: 3rem;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 2rem;
+  padding: 2rem;
+}
+
+.button-1, .button-2 {
+  background-color: #3393b1;
+  /* Green */
+  border: none;
+  color: #3d3d3d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.button-1 {
+  margin: 1rem;
+}
+
+.button-2 {
+  margin: 1rem;
 }
 /*# sourceMappingURL=index.css.map */
